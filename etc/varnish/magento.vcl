@@ -15,7 +15,7 @@ import std;
 acl purge {
 	"localhost";
 }
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Varnish has a concept of "backend" or "origin" servers.
 # A backend server is the server providing the content Varnish will accelerate.»
 # https://varnish-cache.org/docs/6.1/users-guide/vcl-backends.html
@@ -86,7 +86,7 @@ backend default {
 		.window = 10;
    }
 }
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Called after the response headers have been successfully retrieved from the backend.»
 # https://varnish-cache.org/docs/6.1/users-guide/vcl-built-in-subs.html#vcl-backend-response
 sub vcl_backend_response {
@@ -229,7 +229,7 @@ sub vcl_backend_response {
 	}
 	return (deliver);
 }
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Called before any object except a `vcl_synth` result is delivered to the client.»
 # https://varnish-cache.org/docs/6.1/users-guide/vcl-built-in-subs.html#vcl-deliver
 sub vcl_deliver {
@@ -325,7 +325,7 @@ sub vcl_hit {
 		return (restart);
 	}
 }
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Called:
 #	*) at the beginning of a request,
 #	*) after the complete request has been received and parsed,

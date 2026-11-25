@@ -1,9 +1,9 @@
 #! /bin/sh
-# 2020-04-18 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-18 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # "Force IntelliJ IDEA to highlight the syntax of `/etc/default/varnish`":
 # https://github.com/vegandthecity/server/issues/16
 #
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Listen for client requests on the specified address and port.
 # The address can be:
 #     *) a host name ("localhost"),
@@ -15,12 +15,12 @@
 # At least one of address or port is required.»
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html
 p_a=':6081'
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Use the specified VCL configuration file instead of the builtin default.
 # See VCL for details on VCL syntax: https://varnish-cache.org/docs/6.4/reference/vcl.html#vcl-7»
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html
 p_f='/etc/varnish/default.vcl'
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Path to a file containing a secret used for authorizing access to the management port.
 # To disable authentication use `none`.
 # If this argument is not provided,
@@ -31,7 +31,7 @@ p_f='/etc/varnish/default.vcl'
 # with appropriate permissions (ie. readable by a unix group to delegate control to).»
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html#security-options
 p_S='/etc/varnish/secret'
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # 1) «Use the specified storage backend. See Storage Backend section:
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html#storage-backend
 # This option can be used multiple times to specify multiple storage files.
@@ -41,7 +41,7 @@ p_S='/etc/varnish/secret'
 # 2) «`malloc` is a memory based backend.»
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html#storage-backend
 p_s='malloc,256m'
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # 1) «Offer a management interface on the specified address and port.
 # See `varnish-cli` for documentation of the management commands:
 # https://varnish-cache.org/docs/6.4/reference/varnish-cli.html#varnish-cli-7
@@ -51,7 +51,7 @@ p_s='malloc,256m'
 # https://stackoverflow.com/a/23330233
 # https://varnish-cache.org/docs/6.4/reference/varnishadm.html
 p_T='localhost:6082'
-# 2020-04-19 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-19 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # 1) «Specifies the default time to live (TTL) for cached objects.
 # This is a shortcut for specifying the `default_ttl` run-time parameter.»
 # https://varnish-cache.org/docs/6.4/reference/varnishd.html#tuning-options

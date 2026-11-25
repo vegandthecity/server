@@ -1,4 +1,4 @@
-# 2020-04-08 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-08 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # 1) "How did I install Oracle Java 13 for Elasticsearch 6 to Debian 10?": https://df.tips/t/1007
 # 2) "What do the scripts in /etc/profile.d do?": https://unix.stackexchange.com/questions/64258
 export DERBY_HOME=/usr/lib/jvm/jdk-13.0.2/db

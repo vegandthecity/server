@@ -3,12 +3,12 @@ alias_maps = hash:/etc/aliases
 append_dot_mydomain = no
 biff = no
 compatibility_level = 2
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # "How to bind Postfix to localhost only?" https://df.tips/t/963
 inet_interfaces = 127.0.0.1
 inet_protocols = all
 mailbox_size_limit = 0
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # http://serverfault.com/questions/239305
 # http://www.postfix.org/postconf.5.html#mydestination
 mydestination = localhost
@@ -18,7 +18,7 @@ myorigin = /etc/mailname
 readme_directory = no
 recipient_delimiter = +
 relayhost =
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # https://unix.stackexchange.com/a/369197
 smtp_tls_security_level = may
 smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache

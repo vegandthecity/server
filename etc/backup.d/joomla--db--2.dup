@@ -1,4 +1,4 @@
-# 2020-04-10 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-10 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 options = --allow-source-mismatch --no-encryption --asynchronous-upload --volsize 50 --archive-dir /var/backup/archive --name magento/db
 testconnect = no
 when = hourly

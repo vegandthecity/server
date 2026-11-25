@@ -127,7 +127,7 @@ case "$1" in
         status_varnishd
         ;;
     restart|force-reload)
-# 2020-04-18 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-18 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «Could not get socket :6081: Address already in use» / «Syntax check failed, not restarting»
 # on `service varnish restart`: https://github.com/vegandthecity/server/issues/15
 #	if status_of_proc -p "${PIDFILE}" "${DAEMON}" "${NAME}" 1>/dev/null; then

@@ -1,4 +1,4 @@
-# 2020-03-26 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-03-26 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 AcceptEnv LANG LC_*
 ChallengeResponseAuthentication no
 ClientAliveCountMax 3333

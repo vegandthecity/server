@@ -1,4 +1,4 @@
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
@@ -14,9 +14,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 * * * * * www-data php /var/www/veg.mage2.pro/magento/update/cron.php >> /var/www/veg.mage2.pro/magento/var/log/update.cron.log
 * * * * * www-data php /var/www/veg.mage2.pro/magento/bin/magento setup:cron:run >> /var/www/veg.mage2.pro/magento/var/log/setup.cron.log
 
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # Let's Encrypt certificates update: https://serverfault.com/a/790776
 @daily www-data sudo certbot renew && sudo service nginx restart
 
-# 2020-04-04 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-04-04 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # A crontab should contain a newline at the end: https://serverfault.com/a/230407

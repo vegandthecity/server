@@ -1,4 +1,4 @@
-# 2020-03-26 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-03-26 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 # «The original sh sourced .profile on startup.
 # bash will try to source .bash_profile first, but if that doesn't exist, it will source .profile»:
 # https://unix.stackexchange.com/a/45734
